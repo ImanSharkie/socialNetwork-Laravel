@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.user-info {
+    position: relative;
+    width: 70%;
+    text-align: center;
+    top: 20px;
+
+}
+
+#userImg {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+/**** Principal page ****/
+
+.create-post-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.postTextarea {
+    padding: 1em 1em 1em 1em;
+    background: transparent;
+    color: rgb(31, 31, 31);
+    font-size: 16px;
+    font-family: 'Poppins';
+    width: 100%;
+    height: 7em;
+    transition: height 400ms ease-out;
+    resize: vertical;
+}
+
+.postButton{
+    background-color: rgb(31, 121, 255);
+    color: white;
+    font-weight: 800;
+    display: flex;
+    float: right;
+    margin: 10px;
+}
+
+.postButton:hover{
+    background-color: rgb(75, 147, 255);
+}
+
+.footerPost{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nameUserPost {
+    float: left;
+    margin: 0 20px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.postName{
+    margin: 10px 20px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.postDescription{
+    font-family:'Open Sans';
+    font-size: 14px;
+    margin: 0px 20px 5px;
+}
+
+.iconsPost{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    margin: 0 20px;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.iconsPost img{
+    margin: 0px 5px 0px 15px;
+}
+
+/*** Profile Page ****/
+
+.containerProfile, .userDescriptionProfile{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.infoProfile, .profileFollowers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.imgProfile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 2vw;
+}
+
+.userDescription{
+    padding: 2vw 0.2vw 0.5vw;
+    font-family: Poppins;
+    font-weight: 900;
+}
+
+.descriptionProfile{
+    font-family: 'Open Sans';
+    font-size: 13px;
+    padding: 0.2vw 2vw 1vw 0vw;
+    text-align: justify;
+}
+
+.profileFollowers{
+    font-weight: 600;
+    color: rgb(75, 147, 255) ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.followers, .following{
+    padding: 0vw 0.2vw;
+}
+
+.editSettings{
+    color: rgb(75, 147, 255);
+    border: 1px solid rgb(75, 147, 255) ;
+    font-weight: 800;
+    display: flex;
+    padding: 0.5vw 1.5vw;
+}
+
+.editSettings:hover{
+    background-color: rgb(75, 147, 255);
+    color: white;
+}
+
+.buttonProfile{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vw;
+}
+
+.followersFollowing{
+    display: flex;
+    flex-direction: row;
+}
+
+

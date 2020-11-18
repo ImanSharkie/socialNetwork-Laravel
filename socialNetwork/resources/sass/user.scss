@@ -1,0 +1,47 @@
+%flex-centering {
+    display: flex;
+    justify-content: center;
+
+}
+
+.user-section {
+    @extend %flex-centering;
+
+    .user-info {
+        border: 1px solid lightgrey;
+        position: relative;
+        width: 70%;
+        text-align: center;
+        top: 100px;
+
+    }
+}
+
+.username-container {
+    padding: 15px;
+}
+
+.image-container {
+    @extend %flex-centering;
+
+    #userImg {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.description-container {
+    padding: 15px;
+}
+
+
+.update-btn-container {
+    @extend %flex-centering;
+    position: relative;
+    top: 150px;
+
+    button {
+        padding: 5px;
+        border: 1px solid lightgrey;
+    }
+}
